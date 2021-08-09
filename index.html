@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <style>
+      #box1 {
+        width: 1000px;
+        height: 200px;
+        background-color: lightgray;
+        margin: 50px auto;
+      }
+      #box1-item {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+        margin-left: 23px;
+        margin-top: 50px;
+        float: left;
+        border-radius: 8px;
+        color: white;
+      }
+      #box1-item:nth-child(2) {
+        background-color: blue;
+      }
+      #box1-item:nth-child(3) {
+        background-color: #35c5dd;
+      }
+      #box1-item > h2,
+      p {
+        text-align: center;
+      }
+      #box2-item {
+        margin-left: 32%;
+      }
+      #box2-item > p {
+        color: #2d5081;
+        float: left;
+        margin-left: 20px;
+        font-size: 30px;
+      }
+      #box2 > h1 {
+        color: blue;
+        font-size: 60px;
+        text-align: center;
+      }
+      #box3 {
+        width: 1500px;
+        margin-left: 10%;
+      }
+      #box3-item {
+        margin-top: 130px;
+        width: 400px;
+        height: 500px;
+        border: 2px solid red;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+      #box-img > img {
+        object-fit: contain;
+        border-radius: 5px;
+      }
+      #box3-item > p,
+      h3 {
+        text-align: left;
+        padding-left: 10px;
+      }
+      button {
+        border: 2px solid #68c9df;
+        border-radius: 5px;
+        color: #68c9df;
+        width: 200px;
+        height: 35px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      <div id="box1-item">
+        <h2>Scholarship</h2>
+        <p>Available</p>
+      </div>
+      <div id="box1-item">
+        <h2>Scholarship</h2>
+        <p>Available</p>
+      </div>
+      <div id="box1-item">
+        <h2>Scholarship</h2>
+        <p>Available</p>
+      </div>
+    </div>
+
+    <div id="box2">
+      <h1>Popular program</h1>
+      <div id="box2-item">
+        <p>graduate</p>
+        <p>Postgraduate</p>
+        <p>PHD Scholarships</p>
+        <p>Training</p>
+      </div>
+    </div>
+
+    <div id="box3">
+      <div id="box3-item">
+        <div class="box-img">
+          <img src="https://via.placeholder.com/400x300" alt="image" />
+        </div>
+        <p>Agriculture</p>
+        <h3>Chemical engneering</h3>
+        <p>
+          Lorem ipsum dolar sit amet consecteur adiplscing elit,sed do elusmod
+          tempor incidiunt ut
+        </p>
+        <button>Apply Now</button>
+      </div>
+      <div id="box3-item">
+        <div class="box-img">
+          <img src="https://via.placeholder.com/400x300" alt="image" />
+        </div>
+        <p>Agriculture</p>
+        <h3>Chemical engneering</h3>
+        <p>
+          Lorem ipsum dolar sit amet consecteur adiplscing elit,sed do elusmod
+          tempor incidiunt ut
+        </p>
+        <button>Apply Now</button>
+      </div>
+      <div id="box3-item">
+        <div class="box-img">
+          <img src="https://via.placeholder.com/400x300" alt="image" />
+        </div>
+        <p>Agriculture</p>
+        <h3>Chemical engneering</h3>
+        <p>
+          Lorem ipsum dolar sit amet consecteur adiplscing elit,sed do elusmod
+          tempor incidiunt ut
+        </p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+  </body>
+</html>
